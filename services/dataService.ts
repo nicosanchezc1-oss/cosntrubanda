@@ -1,5 +1,5 @@
 import { supabase, isSupabaseConfigured } from '../supabaseClient';
-import { Member, MemberInsert, Reward, Transaction, DashboardStats } from '../types';
+import { Member, MemberInsert, Reward, DashboardStats } from '../types';
 
 // --- MOCK DATA FOR DEMO MODE ---
 const MOCK_MEMBERS: Member[] = [

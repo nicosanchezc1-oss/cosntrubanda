@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Gift, ShoppingBag, Search, Lock } from 'lucide-react';
+import { Gift, ShoppingBag, Lock } from 'lucide-react';
 import { getRewards, redeemReward, searchMemberByDni } from '../services/dataService';
 import { Reward, Member } from '../types';
 
